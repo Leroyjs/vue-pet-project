@@ -1,0 +1,36 @@
+.header-user-list {
+  display: flex;
+  padding-bottom: 37px;
+
+  &__item-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 10px;
+
+    &:not(:last-of-type) {
+      margin-right: 30px;
+    }
+  }
+
+  &__item {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+  }
+
+  &__img-wrapper {
+    height: 92px;
+    width: 92px;
+    border: 2px solid #A6328D;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+}

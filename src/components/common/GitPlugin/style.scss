@@ -1,0 +1,31 @@
+.git-plugin{
+  border-radius:6px;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  &__count{
+    font-size: 14px;
+    height: 100%;
+    padding: 0 12px;
+  }
+
+  &__button{
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    font-size: 14px;
+    border: 0;
+    border-right: 1px solid rgba(27, 31, 35, 0.15);
+    &_fork{
+      border-left: 1px solid rgba(27, 31, 35, 0.15);
+    }
+  }
+  &__icon{
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+  }
+}
